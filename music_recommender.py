@@ -12,8 +12,8 @@ import random
 logging.basicConfig(level=logging.INFO)
 
 # LastFM API configuration
-API_KEY = "387dc244f21c204268a5bf210c1d9c45"
-API_SECRET = "d0b135a2827bf8e6355d0ce725f7143b"
+API_KEY = "your_api_key_here"
+API_SECRET = "your_secret_key_here"
 
 class MusicRecommender:
     def __init__(self, api_key, api_secret):
